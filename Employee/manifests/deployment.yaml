@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: crud-app
-        image: 127.0.0.1:8088/github_project/crud:105
+        image: 127.0.0.1:8088/github_project/crud:111
       imagePullSecret:
       - name: harbor
         
