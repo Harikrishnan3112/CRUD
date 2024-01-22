@@ -10,7 +10,7 @@ spec:
   retryInterval: 2m0s
   sourceRef:
     kind: GitRepository
-    name: crud-app
+    name: flux-system
   targetNamespace: default
   timeout: 3m0s
   wait: true
