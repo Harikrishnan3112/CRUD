@@ -6,12 +6,12 @@ metadata:
   namespace: flux-system
 spec:
   interval: 30m0s
-  path: ./kustomize
+  path: ./Employee/manifests
   prune: true
   retryInterval: 2m0s
   sourceRef:
     kind: GitRepository
-    name: podinfo
+    name: flux-system
   targetNamespace: default
   timeout: 3m0s
   wait: true
