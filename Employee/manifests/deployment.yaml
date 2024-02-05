@@ -16,5 +16,5 @@ spec:
     spec:
       containers:
       - name: crud-app
-        image: java-sb:3
+        image: 127.0.0.1:8088/github_project/crud:114
         
