@@ -4,7 +4,7 @@ metadata:
   name: podinfo
   namespace: flux-system
 spec:
-  image: harikrishnan3112/java-sb:4
+  image: harikrishnan3112/java-sb
   interval: 1m0s
   secretRef:
     name: dockerhub-credential
