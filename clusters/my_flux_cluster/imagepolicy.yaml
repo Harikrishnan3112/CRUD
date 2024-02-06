@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   imageRepositoryRef:
-    name: harikrishnan3112/java-sb
+    name: java-sb
   policy:
     semver:
       range: 0.0.x
