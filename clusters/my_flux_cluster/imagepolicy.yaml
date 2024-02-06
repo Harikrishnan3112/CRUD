@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   imageRepositoryRef:
-    name: podinfo
+    name: harikrishnan3112/java-sb
   policy:
     semver:
       range: 0.0.x
