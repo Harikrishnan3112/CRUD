@@ -7,7 +7,7 @@ spec:
   interval: 1m0s
   sourceRef:
     kind: GitRepository
-    name: podinfo
+    name: crud
   git:
     checkout:
       ref:
