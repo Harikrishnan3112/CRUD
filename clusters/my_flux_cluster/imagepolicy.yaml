@@ -4,7 +4,6 @@ metadata:
   name: podinfo
   namespace: flux-system
 spec:
-  suspend: true
   imageRepositoryRef:
     name: podinfo
   policy:
