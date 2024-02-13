@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: boot-2
-        image: harikrishnan3112/java-sb:v1.0.1 # {"$imagepolicy": "flux-system:podinfo"}
+        image: harikrishnan3112/java-sb:v1.0.2 # {"$imagepolicy": "flux-system:podinfo"}
